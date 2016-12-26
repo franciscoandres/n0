@@ -1,0 +1,7 @@
+@each $key, $value in $iteration-count-list {
+	
+	.#{$iteration-count-name}-#{$key} {
+		animation-iteration-count: #{$value};
+	}
+
+}

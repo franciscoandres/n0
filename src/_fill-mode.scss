@@ -1,0 +1,7 @@
+@each $key, $value in $fill-mode-list {
+
+	.#{$fill-mode-name}-#{$key} {
+		animation-fill-mode: #{$value};
+	}
+
+}

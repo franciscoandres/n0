@@ -9,7 +9,8 @@ const pkg    = require("./package.json");
 
 const options = {
 	"paths": {
-		"src": "./src/*.scss",
+		"srcAll": "./src/*.scss",
+		"src": "./src/n0.scss",
 		"dist": "./css/",
 		"root": "./"
 	},
@@ -30,5 +31,5 @@ gulp.task("build:css", () => {
 });
 
 gulp.task("default", ["build:css"], () => {
-	gulp.watch(options.paths.src, ["build:css"]);
+	gulp.watch(options.paths.srcAll, ["build:css"]);
 })

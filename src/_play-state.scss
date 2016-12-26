@@ -1,0 +1,7 @@
+@each $key, $value in $play-state-list {
+	
+	.#{$play-state-name}-#{$key} {
+		animation-play-state: #{$value};
+	}
+
+}

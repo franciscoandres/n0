@@ -1,0 +1,7 @@
+@each $key, $value in $timing-function-list {
+	
+	.#{$timing-function-name}-#{$key} {
+		animation-timing-function: #{$value};
+	}
+
+}

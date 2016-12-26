@@ -1,0 +1,7 @@
+@each $key, $value in $direction-list {
+
+	.#{$direction-name}-#{$key} {
+		animation-direction: #{$value};
+	}
+
+}

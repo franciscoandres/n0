@@ -1,0 +1,16 @@
+.flash {
+	animation-name: flash;
+	animation-duration: .1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(1);
+	opacity: 0;
+}
+
+@keyframes flash {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+}
