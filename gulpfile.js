@@ -10,7 +10,7 @@ const pkg    = require("./package.json");
 const options = {
 	"paths": {
 		"src": "./src/*.scss",
-		"dist": "./dist/",
+		"dist": "./css/",
 		"root": "./"
 	},
 	"prefix": ["last 2 versions"],
