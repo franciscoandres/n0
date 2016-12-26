@@ -1,0 +1,33 @@
+{
+  "name": "n0",
+  "version": "1.0.0",
+  "description": "CSS animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscogo/n0.git"
+  },
+  "keywords": [
+    "css",
+    "animations",
+    "keyframes"
+  ],
+  "author": "Francisco A. Gonzalez O.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscogo/n0/issues"
+  },
+  "homepage": "https://github.com/franciscogo/n0#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-header": "^1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-size": "^2.1.0"
+  }
+}
