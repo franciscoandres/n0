@@ -2,7 +2,7 @@
   "name": "n0",
   "version": "1.0.0",
   "description": "CSS animations",
-  "main": "index.js",
+  "main": "css/n0.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
