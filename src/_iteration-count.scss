@@ -1,6 +1,12 @@
+/*
+
+	Iteration count
+
+*/
+
 @each $key, $value in $iteration-count-list {
 	
-	.#{$iteration-count-name}-#{$key} {
+	.#{$iteration-count-name}_#{$key} {
 		animation-iteration-count: #{$value};
 	}
 

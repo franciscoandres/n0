@@ -1,6 +1,12 @@
+/*
+
+	Duration
+
+*/
+
 @each $key, $value in $duration-list {
 
-	.#{$duration-name}-#{$key} {
+	.#{$duration-name}_#{$key} {
 		animation-duration: #{$value};
 	}
 

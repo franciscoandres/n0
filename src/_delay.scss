@@ -1,6 +1,12 @@
+/*
+
+	Delay
+
+*/
+
 @each $key, $value in $delay-list {
 
-	.#{$delay-name}-#{$key} {
+	.#{$delay-name}_#{$key} {
 		animation-delay: #{$value};
 	}
 

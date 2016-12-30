@@ -1,6 +1,12 @@
+/*
+
+	Direction
+
+*/
+
 @each $key, $value in $direction-list {
 
-	.#{$direction-name}-#{$key} {
+	.#{$direction-name}_#{$key} {
 		animation-direction: #{$value};
 	}
 

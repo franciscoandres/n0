@@ -1,6 +1,13 @@
+/*
+
+	Timing function
+
+*/
+
+
 @each $key, $value in $timing-function-list {
 	
-	.#{$timing-function-name}-#{$key} {
+	.#{$timing-function-name}_#{$key} {
 		animation-timing-function: #{$value};
 	}
 
