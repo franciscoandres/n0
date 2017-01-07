@@ -1,0 +1,29 @@
+/*
+
+	Pulse
+
+*/
+
+.pulse {
+	-moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	transform: translateZ(0);
+	transition: transform ease-in;
+}
+
+@keyframes pulse {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(1.25)
+	}
+	50% {
+		transform: scale(1.5);
+	}
+}
