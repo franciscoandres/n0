@@ -1,28 +1,53 @@
-/* n0 - 2.1.0 */
+/* n0 - 2.3.0 */
 /*
 
 	Fade
 
 */
-.fade {
-  opacity: 0;
-  -webkit-animation-name: fade;
-          animation-name: fade;
+.fade_out {
+  opacity: 1;
+  -webkit-animation-name: fade_out;
+          animation-name: fade_out;
   -webkit-animation-duration: .4s;
           animation-duration: .4s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards; }
+          animation-fill-mode: forwards;
+  -webkit-transition: opacity .2s ease-out;
+  transition: opacity .2s ease-out; }
 
-@-webkit-keyframes fade {
-  0% {
+@-webkit-keyframes fade_out {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fade_out {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.fade_in {
+  opacity: 0;
+  -webkit-animation-name: fade_in;
+          animation-name: fade_in;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: opacity .2s ease-in;
+  transition: opacity .2s ease-in; }
+
+@-webkit-keyframes fade_in {
+  from {
     opacity: 0; }
-  100% {
+  to {
     opacity: 1; } }
 
-@keyframes fade {
-  0% {
+@keyframes fade_in {
+  from {
     opacity: 0; }
-  100% {
+  to {
     opacity: 1; } }
 
 /*
