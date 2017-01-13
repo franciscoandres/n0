@@ -1,4 +1,4 @@
-/* n0 - 2.3.0 */
+/* n0 - 2.3.1 */
 /*
 
 	Fade
@@ -271,11 +271,11 @@
     -webkit-transform: scale(1);
             transform: scale(1); }
   25% {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25); }
+    -webkit-transform: scale(1.125);
+            transform: scale(1.125); }
   50% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5); } }
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25); } }
 
 @keyframes pulse {
   0%,
@@ -283,11 +283,11 @@
     -webkit-transform: scale(1);
             transform: scale(1); }
   25% {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25); }
+    -webkit-transform: scale(1.125);
+            transform: scale(1.125); }
   50% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5); } }
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25); } }
 
 /*
 

@@ -1,6 +1,6 @@
 {
   "name": "n0",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "CSS animations",
   "main": "css/n0.min.css",
   "scripts": {
