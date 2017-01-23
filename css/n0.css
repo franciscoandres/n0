@@ -1,4 +1,4 @@
-/* n0 - 2.3.1 */
+/* n0 - 2.3.2 */
 /*
 
 	Fade
@@ -314,6 +314,10 @@
   -webkit-animation-delay: 2s;
           animation-delay: 2s; }
 
+.delay_6 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s; }
+
 /*
 
 	Direction
@@ -351,6 +355,10 @@
 .duration_5 {
   -webkit-animation-duration: 2s;
           animation-duration: 2s; }
+
+.duration_6 {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s; }
 
 /*
 
