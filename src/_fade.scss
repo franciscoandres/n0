@@ -4,15 +4,15 @@
 
 */
 
-.fade_out {
+.fade-out {
 	opacity: 1;
-	animation-name: fade_out;
+	animation-name: fade-out;
 	animation-duration: .4s;
 	animation-fill-mode: forwards;
 	transition: opacity .2s ease-out;
 }
 
-@keyframes fade_out {
+@keyframes fade-out {
 	from {
 		opacity: 1;
 	}
@@ -21,15 +21,15 @@
 	}
 }
 
-.fade_in {
+.fade-in {
 	opacity: 0;
-	animation-name: fade_in;
+	animation-name: fade-in;
 	animation-duration: .4s;
 	animation-fill-mode: forwards;
 	transition: opacity .2s ease-in;
 }
 
-@keyframes fade_in {
+@keyframes fade-in {
 	from {
 		opacity: 0;
 	}

@@ -4,36 +4,36 @@
 
 */
 
-.from_top,
-.from_right,
-.from_bottom,
-.from_left {
+.from-top,
+.from-right,
+.from-bottom,
+.from-left {
 	opacity: 0;
 	animation-duration: .4s;
 	animation-fill-mode: forwards;
 }
 
-.from_top {
-	animation-name: from_top;
+.from-top {
+	animation-name: from-top;
 	transform: translateY(-10vh);
 }
 
-.from_right {
-	animation-name: from_right;
+.from-right {
+	animation-name: from-right;
 	transform: translateX(10vw);
 }
 
-.from_bottom {
-	animation-name: from_bottom;
+.from-bottom {
+	animation-name: from-bottom;
 	transform: translateY(10vh);
 }
 
-.from_left {
-	animation-name: from_left;
+.from-left {
+	animation-name: from-left;
 	transform: translateX(-10vw);
 }
 
-@keyframes from_top {
+@keyframes from-top {
 	0% {
 		transform: translateY(-10vh);
 		opacity: 0;
@@ -44,7 +44,7 @@
 	}
 }
 
-@keyframes from_right {
+@keyframes from-right {
 	0% {
 		transform: translateX(-10);
 		opacity: 0;
@@ -55,7 +55,7 @@
 	}
 }
 
-@keyframes from_bottom {
+@keyframes from-bottom {
 	0% {
 		transform: translateY(10vh);
 		opacity: 0;
@@ -66,7 +66,7 @@
 	}
 }
 
-@keyframes from_left {
+@keyframes from-left {
 	0% {
 		transform: translateX(-10vw);
 		opacity: 0;

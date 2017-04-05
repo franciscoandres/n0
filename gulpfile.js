@@ -23,9 +23,11 @@ gulp.task("build:css", () => {
 		.pipe(prefix({options: options.prefix }))
 		.pipe(header("/* ${pkg.name} - ${pkg.version} */\n", { pkg: pkg }))
 		.pipe(gulp.dest(options.paths.dist))
+		.pipe(size({title: "Raw"}))
 		.pipe(minify())
 		.pipe(rename({ suffix: ".min" }))
-		.pipe(size())
+		.pipe(size({title: "Min"}))
+		.pipe(size({title: "Gzip: ", gzip: true}))
 		.pipe(header("/* ${pkg.name} - ${pkg.version} */\n", { pkg: pkg }))
 		.pipe(gulp.dest(options.paths.dist))
 });

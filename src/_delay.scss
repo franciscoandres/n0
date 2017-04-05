@@ -6,7 +6,7 @@
 
 @each $key, $value in $delay-list {
 
-	.#{$delay-name}_#{$key} {
+	.#{$delay-name}-#{$key} {
 		animation-delay: #{$value};
 	}
 
