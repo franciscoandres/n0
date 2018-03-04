@@ -14,7 +14,7 @@ const options = {
 		"dist": "./css/",
 		"root": "./"
 	},
-	"prefix": ["last 2 versions"],
+	"prefix": ["last 4 versions"],
 }
 
 gulp.task("build:css", () => {

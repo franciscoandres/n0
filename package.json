@@ -23,11 +23,11 @@
   "homepage": "https://github.com/franciscogo/n0#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-clean-css": "^2.3.2",
-    "gulp-header": "^1.8.8",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-header": "^2.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.0.0",
-    "gulp-size": "^2.1.0"
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^3.0.0"
   }
 }

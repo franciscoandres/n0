@@ -12,7 +12,6 @@
           animation-duration: .4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-transition: opacity .2s ease-out;
   transition: opacity .2s ease-out; }
 
 @-webkit-keyframes fade-out {
@@ -35,7 +34,6 @@
           animation-duration: .4s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-transition: opacity .2s ease-in;
   transition: opacity .2s ease-in; }
 
 @-webkit-keyframes fade-in {
@@ -260,7 +258,6 @@
           animation-timing-function: linear;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  -webkit-transition: -webkit-transform ease-in;
   transition: -webkit-transform ease-in;
   transition: transform ease-in;
   transition: transform ease-in, -webkit-transform ease-in; }
@@ -295,16 +292,16 @@
 
 */
 .delay-1 {
-  -webkit-animation-delay: .1s;
-          animation-delay: .1s; }
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms; }
 
 .delay-2 {
-  -webkit-animation-delay: .2s;
-          animation-delay: .2s; }
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms; }
 
 .delay-3 {
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s; }
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms; }
 
 .delay-4 {
   -webkit-animation-delay: 1s;
@@ -324,8 +321,7 @@
 
 */
 .direction-reverse {
-  -webkit-animation-direction: reverse;
-          animation-direction: reverse; }
+  animation-direction: reverse; }
 
 .direction-alternate {
   -webkit-animation-direction: alternate;
@@ -337,16 +333,16 @@
 
 */
 .duration-1 {
-  -webkit-animation-duration: .1s;
-          animation-duration: .1s; }
+  -webkit-animation-duration: 100ms;
+          animation-duration: 100ms; }
 
 .duration-2 {
-  -webkit-animation-duration: .2s;
-          animation-duration: .2s; }
+  -webkit-animation-duration: 200ms;
+          animation-duration: 200ms; }
 
 .duration-3 {
-  -webkit-animation-duration: .4s;
-          animation-duration: .4s; }
+  -webkit-animation-duration: 400ms;
+          animation-duration: 400ms; }
 
 .duration-4 {
   -webkit-animation-duration: 1s;

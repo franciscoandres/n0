@@ -4,12 +4,15 @@
 
 //
 
-$value-1: ".1s";
-$value-2: ".2s";
-$value-3: ".4s";
-$value-4: "1s";
-$value-5: "2s";
-$value-6: "4s";
+$value-miliseconds: 1ms;
+$value-seconds: 1s;
+
+$value-1: (100 * $value-miliseconds);
+$value-2: (200 * $value-miliseconds);
+$value-3: (400 * $value-miliseconds) ;
+$value-4: (1 * $value-seconds);
+$value-5: (2 * $value-seconds);
+$value-6: (4 * $value-seconds);
 
 
 //

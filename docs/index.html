@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>n0 - CSS animations</title>
+	<meta name="description" content="Easy to use CSS animations for your web project">
+	<link rel="stylesheet" href="../css/n0.css">
+	<link rel="stylesheet" href="https://unpkg.com/hotlinecss">
+</head>
+<body class="sans-serif near-black">
+	<header class="mb5">
+		<div class="max-w-9 mh-auto">
+			<div class="w-90 mh-auto">
+				<h1>n0</h1>
+				<p class="font-4 line-copy black-80">Easy to use CSS animations for your web project</p>
+				<p><code class="bg-near-white pa3 code d-inline-block">$ npm install n0</code></p>
+			</div>
+		</div>
+	</header>
+	<main class="max-w-9 mh-auto mb5">
+		<div class="w-90 mh-auto">
+			<p class="mb3 black-80 tracked text-uppercase">Normal effects</p>
+			<div class="flex flex-wrap">
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue fade-out iteration-infinite delay-4 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.fade-out</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue fade-in iteration-infinite delay-4 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.fade-in</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue flash iteration-infinite delay-2 duration-2"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.flash</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue rotate iteration-infinite delay-4 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.rotate</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue pulse iteration-infinite delay-4 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.pulse</code>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w-90 mh-auto">
+			<p class="mb3 black-80 tracked text-uppercase">From direction</p>
+			<div class="flex flex-wrap">
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue from-top iteration-infinite delay-2 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.fade-top</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue from-right iteration-infinite delay-2 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.from-right</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue from-bottom iteration-infinite delay-2 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.from-bottom</code>
+					</div>
+				</div>
+				<div class="flex items-center w-100 md-w-25 mb5">
+					<div class="w-40">
+						<div class="h-3 w-3 bg-light-blue from-left iteration-infinite delay-2 duration-4"></div>
+					</div>
+					<div class="w-60 black-80">
+						<code>.from-left</code>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w-90 mh-auto">
+			<p class="mb3 black-80 tracked text-uppercase">Utilities</p>
+			<div class="overflow-auto">
+				<table class="table w-100">
+					<thead>
+						<tr class="text-left mb3">
+							<th class="pv3 black-80">Class</th>
+							<th class="pa3 black-80">Description</th>
+							<th class="pv3 black-80">Values</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="pv3">.delay-<span class="gray">{number}</span> </td>
+							<td class="pa3"><p class="line-copy">Configures the delay between the time the element is loaded and the beginning of the animation sequence.</p></td>
+							<td class="pv3">1, 2, 3, 4, 5, 6</td>
+						</tr>
+						<tr>
+							<td class="pv3">.direction-<span class="gray">${value}</span></td>
+							<td class="pa3"><p class="line-copy">Configures whether or not the animation should alternate direction on each run through the sequence or reset to the start point and repeat itself.</p></td>
+							<td class="pv3">reverse, alternate</td>
+						</tr>
+						<tr>
+							<td class="pv3">.duration-<span class="gray">${value}</span></td>
+							<td class="pa3"><p class="line-copy">Configures the length of time that an animation should take to complete one cycle.</p></td>
+							<td class="pv3">1, 2, 3, 4, 5, 6</td>
+						</tr>	
+						<tr>
+							<td class="pv3">.iteration-<span class="gray">${value}</span></td>
+							<td class="pa3"><p class="line-copy">Configures the number of times the animation should repeat; you can specify infinite to repeat the animation indefinitely.</p></td>
+							<td class="pv3">infinite, 1, 2, 3, 4, 5</td>
+						</tr>
+						<tr>
+							<td class="pv3">.state-<span class="gray">${value}</span></td>
+							<td class="pa3"><p class="line-copy">Lets you pause and resume the animation sequence.</p></td>
+							<td class="pv3">running, paused</td>
+						</tr>
+						<tr>
+							<td class="pv3">.timing-<span class="gray">${value}</span></td>
+							<td class="pa3"><p class="line-copy">Configures the timing of the animation; that is, how the animation transitions through keyframes, by establishing acceleration curves.</p></td>
+							<td class="pv3">ease-in, ease-out, ease-in-out, ease-linear</td>
+						</tr>
+						<tr>
+							<td class="pv3 pr3">.fill-<span class="gray">${value}</span></td>
+							<td class="pa3"><p class="line-copy">Configures what values are applied by the animation before and after it is executing.</p></td>
+							<td class="pv3">forwards, backwards, both</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="line-copy">
+					<b>Note:</b> values in delay and duration are: 1 (100ms), 2 (200ms), 3 (400ms) and 4 (1s), 5 (2s), 6 (4s)
+				</p>
+			</div>
+			<a class="light-blue" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations">Source</a>
+		</div>
+	</main>
+</body>
+</html>
