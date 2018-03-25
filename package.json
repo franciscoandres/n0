@@ -4,7 +4,8 @@
   "description": "CSS animations",
   "main": "css/n0.min.css",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "docs": "http-server './docs' -o"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-size": "^3.0.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
